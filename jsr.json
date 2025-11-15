@@ -1,0 +1,12 @@
+{
+  "name": "@dldc-sandbox/tdown-react-lib",
+  "version": "0.1.0",
+  "license": "MIT",
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
+  "publish": {
+    "exclude": ["!dist"]
+  }
+}
