@@ -13,6 +13,12 @@ export default defineConfig({
       },
     }),
   ],
+  exports: {
+    customExports(pkg) {
+      pkg["./styles.css"] = "./dist/styles.css";
+      return pkg;
+    },
+  },
   // Ensure CSS asset is emitted directly into dist as "bundle.css" (no hash, no assets subdir)
   outputOptions: {
     assetFileNames: (assetInfo: any) => {
