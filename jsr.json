@@ -4,8 +4,7 @@
   "license": "MIT",
   "exports": {
     ".": "./dist/index.js",
-    "./package.json": "./package.json",
-    "./styles.css": "./dist/styles.css"
+    "./package.json": "./package.json"
   },
   "publish": {
     "exclude": ["!dist"]
