@@ -23,5 +23,7 @@ jobs:
           node-version-file: ".node-version"
       - name: Install dependencies
         run: pnpm install
+      - name: Log npm version
+        run: npm --version
       - name: Publish package
         run: npm publish
