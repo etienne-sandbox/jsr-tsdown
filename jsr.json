@@ -7,7 +7,6 @@
     "./package.json": "./package.json"
   },
   "publish": {
-    "exclude": ["!dist"],
-    "include": ["./dist/**/*"]
+    "include": ["dist", "package.json", "README.md", "LICENSE"]
   }
 }
