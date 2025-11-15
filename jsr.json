@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "license": "MIT",
   "exports": {
-    ".": "./dist/index.js",
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
     "./package.json": "./package.json"
   },
   "publish": {
