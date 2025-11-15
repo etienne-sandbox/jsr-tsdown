@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@vanilla-extract/css':
-        specifier: ^1.17.4
-        version: 1.17.4
       react:
         specifier: ^19.2.0
         version: 19.2.0
@@ -36,6 +33,9 @@ importers:
       '@types/react-dom':
         specifier: ^19.2.2
         version: 19.2.3(@types/react@19.2.5)
+      '@vanilla-extract/css':
+        specifier: ^1.17.4
+        version: 1.17.4
       '@vanilla-extract/rollup-plugin':
         specifier: ^1.4.2
         version: 1.4.2(rollup@4.53.2)

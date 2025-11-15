@@ -1,16 +1,16 @@
 {
   "name": "@dldc-sandbox/tdown-react-lib",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A starter for creating a React component library.",
   "type": "module",
   "license": "MIT",
-  "homepage": "https://github.com/author/library#readme",
+  "homepage": "https://github.com/etienne-sandbox/jsr-tsdown#readme",
   "bugs": {
-    "url": "https://github.com/author/library/issues"
+    "url": "https://github.com/etienne-sandbox/jsr-tsdown/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/author/library.git"
+    "url": "git+https://github.com/etienne-sandbox/jsr-tsdown.git"
   },
   "author": "Author Name <author.name@mail.com>",
   "files": [
@@ -35,12 +35,12 @@
     "release": "bumpp && pnpm publish",
     "prepublishOnly": "pnpm run build"
   },
-  "dependencies": {
-    "@vanilla-extract/css": "^1.17.4",
+  "peerDependencies": {
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
+    "@vanilla-extract/css": "^1.17.4",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.0",
     "@tsconfig/strictest": "^2.0.7",

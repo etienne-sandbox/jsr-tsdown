@@ -25,4 +25,4 @@ jobs:
       - name: Build
         run: pnpm run build
       - name: Publish package
-        run: pnpx jsr publish
+        run: pnpm publish
