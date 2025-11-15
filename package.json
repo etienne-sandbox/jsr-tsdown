@@ -35,7 +35,7 @@
     "release": "bumpp && pnpm publish",
     "prepublishOnly": "pnpm run build"
   },
-  "peerDependencies": {
+  "dependencies": {
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
