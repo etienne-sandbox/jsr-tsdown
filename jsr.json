@@ -5,7 +5,7 @@
   "exports": {
     ".": "./dist/index.js",
     "./package.json": "./package.json",
-    "styles.css": "./dist/styles.css"
+    "./styles.css": "./dist/styles.css"
   },
   "publish": {
     "exclude": ["!dist"]
