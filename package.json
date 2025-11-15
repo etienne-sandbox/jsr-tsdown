@@ -1,6 +1,6 @@
 {
   "name": "@dldc-sandbox/tdown-react-lib",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A starter for creating a React component library.",
   "type": "module",
   "license": "MIT",
